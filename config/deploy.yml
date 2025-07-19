@@ -2,7 +2,7 @@
 service: doable
 
 # Name of the container image.
-image: your-user/doable
+image: uzielduarte/doable
 
 # Deploy to these servers.
 servers:
@@ -25,7 +25,7 @@ proxy:
 registry:
   # Specify the registry server, if you're not using Docker Hub
   # server: registry.digitalocean.com / ghcr.io / ...
-  username: your-user
+  username: uzielduarte
 
   # Always use an access token rather than real password when possible.
   password:
